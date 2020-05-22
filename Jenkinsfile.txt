@@ -93,7 +93,7 @@ pipeline {
 stage ('deploy'){
   steps {
 	script {
-      bat ''' D:\\Laptop\\Software\\curl-7.68.0-win64-mingw\\bin\\curl C:\\Program Files (x86)\\Jenkins\\workspace\\pipeline\\target\\Cubesb.war -o D:\\Laptop\\Software\\Tomcat\\apache-tomcat-8.5.51\\webapps\\cubesb.war'''
+      bat ''' C:\\Program Files (x86)\\Jenkins\\workspace\\pipeline\\target\\Cubesb.war -o D:\\Laptop\\Software\\Tomcat\\apache-tomcat-8.5.51\\webapps\\cubesb.war'''
         }
 	}
 	}
